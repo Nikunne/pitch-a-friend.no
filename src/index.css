@@ -59,12 +59,20 @@
     margin-left:  5%;
     margin-right: 5%;
   }
+
+  .mini {
+    height: 16vw;
+  }
 }
 
 @media (min-width: 601px) {
   .content {
     margin-left:  15%;
     margin-right: 15%;
+  }
+
+  .mini {
+    height: 8vw;
   }
 }
 
@@ -105,7 +113,6 @@ h2 {
 .mini {
   flex: 1;
   width: 10vw;
-  height: 8vw;
 }
 
 .mini-text {
