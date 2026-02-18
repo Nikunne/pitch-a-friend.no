@@ -35,8 +35,8 @@
 
 @media (max-width: 600px) {
   .patent-img {
-    width: 95%;
-    height: 44%;
+    width: 100%;
+    height: 48%;
   }
 }
 
