@@ -4,7 +4,7 @@ function PatentPage(props) {
             <h2>{props.trademark}</h2>
             <p> {props.trademark + " er ikke et registrert varemerke i Norge"}</p>
             <img className="patent-img" src={"/"+props.img} alt="Patent logo" />
-            <a href={props.url}> Patentstyret-Link</a>
+            <a target={"_blank"} className={"linken"} href={props.url}> <img id="mini" src={"/Patentstyret-logo.png"}/> Source</a>
         </>
     )
 }
