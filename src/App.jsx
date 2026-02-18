@@ -22,6 +22,7 @@ function App() {
 
             <p>Don´t sue me please</p>
             <p>This site is not driven by commercial interests</p>
+            <p>This page is not copyrighted 2026</p>
         </div>
 
     </div>
