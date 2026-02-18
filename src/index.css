@@ -79,15 +79,25 @@ h2 {
   font-size: 2.8vw;
   text-decoration: none;
   color: black;
+  flex: 1;
+  align-items: center;
 }
 
 .linken:hover {
   cursor: pointer;
   background-color: navajowhite;
   font-weight: bold;
+
 }
 
-#mini {
+.mini {
+  flex: 1;
   width: 10vw;
-  height: 5vw;
+  height: 8vw;
+}
+
+.mini-text {
+  margin: 0 2vw 0 0;
+  padding: 0;
+  justify-self: center;
 }
