@@ -30,12 +30,21 @@
   width: 60rem;
   height: 24rem;
   max-width: 90%;
+  max-height: 30%;
+}
+
+@media (max-width: 600px) {
+  .patent-img {
+    width: 45%;
+    height: 25%;
+  }
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 .patent-container {
@@ -44,7 +53,3 @@
   flex-direction: column;
 }
 
-#main {
-  max-width: 90%;
-  margin: auto;
-}
