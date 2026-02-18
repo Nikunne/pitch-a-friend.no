@@ -15,7 +15,7 @@ function App() {
             </div>
 
             <div className="patent-container">
-                <PatentPage url={"https://search.patentstyret.no/advanced/#/trademark?cs=pitch%20a%20friend&size=50"} img={"Patentstyret2.png"} trademark={"Pitch-a-friend"}/>
+                <PatentPage url={"https://search.patentstyret.no/advanced/#/trademark?cs=pitch-a-friend&size=50"} img={"Patentstyret2.png"} trademark={"Pitch-a-friend"}/>
             </div>
 
 
