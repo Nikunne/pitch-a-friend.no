@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import PatentPage from "../components/PatentPage.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,15 +11,11 @@ function App() {
     <div id="main">
         <div className="content">
             <div className="patent-container">
-                <h1>Pitch a Friend</h1>
-                <p>"Pitch a friend" er ikke et registrert varemerke i Norge</p>
-                <img className="patent-img" src="./Patentstyret.png" alt="Patentstyret logo" />
+                <PatentPage url={"https://search.patentstyret.no/advanced/#/trademark?cs=pitch%20a%20friend&size=50"} img={"Patentstyret.png"} trademark={"Pitch a friend"}/>
             </div>
 
             <div className="patent-container">
-                <h1>Pitch a Friend</h1>
-                <p>"Pitch-a-friend" er ikke et registrert varemerke i Norge</p>
-                <img className="patent-img" src="./Patentstyret2.png" alt="Patentstyret logo" />
+                <PatentPage url={"https://search.patentstyret.no/advanced/#/trademark?cs=pitch%20a%20friend&size=50"} img={"Patentstyret2.png"} trademark={"Pitch-a-friend"}/>
             </div>
 
 
