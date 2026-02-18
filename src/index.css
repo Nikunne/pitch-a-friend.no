@@ -52,8 +52,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left:  15%;
-  margin-right: 15%;
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin-left:  5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 601px) {
+  .content {
+    margin-left:  15%;
+    margin-right: 15%;
+  }
 }
 
 .patent-container {
